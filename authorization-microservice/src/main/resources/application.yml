@@ -1,0 +1,15 @@
+server:
+  port: 8100
+
+spring:
+  datasource:
+    url: jdbc:mysql://project1.cymckwvuyb9a.us-east-1.rds.amazonaws.com/project
+    username: admin
+    password: password
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: update
